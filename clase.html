@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var a = 15
+
+    Number.prototype.esMultiploDe = function(x) {
+        if (this % x === 0) {
+            return true;
+        }
+        return false;
+    }
+
+    var otra =16
+
+    var otra2 = 21
+
+
+    console.log(a.esMultiploDe(3));
+    console.log(otra.esMultiploDe(3));
+    console.log(otra2.esMultiploDe(3));
+</script>
+</body>
+</html>
